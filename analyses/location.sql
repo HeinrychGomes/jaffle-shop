@@ -1,5 +1,9 @@
-{{ config(materialized='table',
-    enable=false) }}
+{{ 
+    config(
+        materialized='table',
+        enable=false
+    ) 
+}}
 
 select
   c.city_id,
