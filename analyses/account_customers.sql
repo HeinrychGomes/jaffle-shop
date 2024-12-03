@@ -1,3 +1,10 @@
+
+{{
+    config(
+        materialized='table'
+    )
+}}
+
 select
   a.account_id,
   a.customer_id,

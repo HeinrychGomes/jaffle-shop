@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: postgres
+    database: "dbtprojectlearning-442718"
+    schema: transactional
+    tables: 
+      - name: date_time
+      - name: accounts
+      - name: customers
