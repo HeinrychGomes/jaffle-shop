@@ -20,3 +20,13 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               min_value: 1
               max_value: 2
+
+  - name: city
+    description: "cidades"
+    columns:
+      - name: city_id
+        description: "id da cidade"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 1
+              max_value: 1992574491896183040
